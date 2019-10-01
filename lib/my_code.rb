@@ -11,8 +11,8 @@ end
 finished_array
 end
 
-def reduce(source_array, start_point = nil)
-  if (start_point == 0)
+def reduce(source_array, start_point=nil)
+  if start_point 
   actual_start_point = start_point
   i = 0 
 else
